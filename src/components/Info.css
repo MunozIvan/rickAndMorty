@@ -1,0 +1,27 @@
+
+.info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    margin-left: 1vw;
+}
+
+.titulo{
+    width:15vw;
+}
+
+.about{
+    align-self: center;
+}
+
+.aboutButton{
+    background-color: #5CAD4A;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

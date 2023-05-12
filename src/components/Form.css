@@ -1,0 +1,68 @@
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    margin: 5vw auto;    
+    background-color: grey;
+    border-radius: 40px;
+    border: 5px;
+    border-color: darkgreen;
+    border-style: solid;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+
+  .datosLoginInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1vw;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 20vw;
+  }
+  
+  span {
+    color: red;
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  
+  .submit{
+    max-width: 15vw;
+    margin-bottom: 1vw;
+    background-color: #BBE0F2;
+    border: none;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .imagenForm{
+    max-width: 25vw;
+  }
+
+  .tituloLogin{
+    font-size: 40px;
+    margin-top: 1vw;
+  }
